@@ -129,6 +129,10 @@ To pull the Gemma 2B model using Ollama:
 ```bash
 python -m graphrag.index --init --root .
 ```
+5. ** Down load data **
+        1. Download from below link
+        https://github.com/nihitx/game-of-thrones-/blob/master/gameofthrones.txt 
+        2. save under "input" folder
 
 5. ** Index **
 
