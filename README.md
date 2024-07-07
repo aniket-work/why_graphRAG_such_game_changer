@@ -1,5 +1,4 @@
-# why_graphRAG_such_game_changer
-Let's Build Market Analysis Team w/ AI Agents
+# Why graphRAG such a game changer 
 
 ## Introduction
 
