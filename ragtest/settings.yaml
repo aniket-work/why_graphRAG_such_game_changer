@@ -1,9 +1,10 @@
+
 encoding_model: cl100k_base
 skip_workflows: []
 llm:
   api_key: ${GRAPHRAG_API_KEY}
   type: openai_chat # or azure_openai_chat
-  model: gemma2
+  model: mistral
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 4000
   # request_timeout: 180.0
@@ -30,8 +31,8 @@ embeddings:
   llm:
     api_key: ${GRAPHRAG_API_KEY}
     type: openai_embedding # or azure_openai_embedding
-    model: nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q4_0.gguf
-    api_base: http://localhost:1234/v1
+    model: nomic_embed_text
+    api_base: http://localhost:11434/api
     # api_version: 2024-02-15-preview
     # organization: <organization_id>
     # deployment_name: <azure_model_deployment_name>
@@ -44,14 +45,14 @@ embeddings:
     # batch_size: 16 # the number of documents to send in a single request
     # batch_max_tokens: 8191 # the maximum number of tokens to send in a single request
     # target: required # or optional
-
+  
 
 
 chunks:
   size: 300
   overlap: 100
   group_by_columns: [id] # by default, we don't allow chunks to cross documents
-
+    
 input:
   type: file # or blob
   file_type: text # or csv

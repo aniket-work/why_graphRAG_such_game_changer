@@ -127,7 +127,7 @@ To pull the Gemma 2B model using Ollama:
 4.  ** initialze graphRAG **
 
 ```bash
-python -m graphrag.index --init --root .
+python -m graphrag.index --init --root ragtest
 ```
 5. ** Down load data **
         1. Download from below link
@@ -137,7 +137,7 @@ python -m graphrag.index --init --root .
 5. ** Index **
 
 ```bash
-python -m graphrag.index --root .
+python -m graphrag.index --root .\ragtest
 ```
 5. **Run the Market Analysis AI Application**
 

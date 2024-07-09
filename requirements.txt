@@ -1,7 +1,2 @@
-streamlit
-langchain
-langchain_core
-langchain_community
 graphrag
-ansi2html
-streamlit-extras
+ollama

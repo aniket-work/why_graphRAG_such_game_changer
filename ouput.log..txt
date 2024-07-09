@@ -1,0 +1,144 @@
+(why_graphRAG_such_game_changer) C:\tmp\graphRAG_env>python -m graphrag.index --root ragtest
+🚀 Reading settings from ragtest\settings.yaml
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+🚀 create_base_text_units
+                                 id  ... n_tokens
+0  a17beba7e0cba9aef60d7abb5384c680  ...      292
+1  79b4c7ae551f51889e7984aed1880da2  ...       92
+
+[2 rows x 5 columns]
+🚀 create_base_extracted_entities
+                                        entity_graph
+0  <graphml xmlns="http://graphml.graphdrawing.or...
+🚀 create_summarized_entities
+                                        entity_graph
+0  <graphml xmlns="http://graphml.graphdrawing.or...
+🚀 create_base_entity_graph
+   level                                    clustered_graph
+0      0  <graphml xmlns="http://graphml.graphdrawing.or...
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+🚀 create_final_entities
+                                 id  ...                              description_embedding
+0  b45241d70f0e43fca764df95b2b81f77  ...  [0.8288674354553223, 0.34977760910987854, -3.1...
+1  4119fd06010c494caa07f439b333f4c5  ...  [1.6264327764511108, -0.215969055891037, -2.53...
+2  d3835bf3dda84ead99deadbeac5d0d7d  ...  [0.8124481439590454, 0.45293474197387695, -3.2...
+3  077d2820ae1845bcbb1803379a3d1eae  ...  [0.7680912017822266, 0.7481475472450256, -3.49...
+4  3671ea0dd4e84c1a9b02c5ab2c8f4bac  ...  [-0.9536023736000061, -0.41678178310394287, -3...
+
+[5 rows x 8 columns]
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\datashaper\engine\verbs\convert.py:72:
+FutureWarning: errors='ignore' is deprecated and will raise in a future version. Use to_datetime without
+passing `errors` and catch exceptions explicitly instead
+  datetime_column = pd.to_datetime(column, errors="ignore")
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\datashaper\engine\verbs\convert.py:72:
+UserWarning: Could not infer format, so each element will be parsed individually, falling back to
+`dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  datetime_column = pd.to_datetime(column, errors="ignore")
+🚀 create_final_nodes
+   level            title          type  ...                 top_level_node_id  x  y
+0      0           "LILY"      "PERSON"  ...  b45241d70f0e43fca764df95b2b81f77  0  0
+1      0     "THE FLOWER"  "TECHNOLOGY"  ...  4119fd06010c494caa07f439b333f4c5  0  0
+2      0      "BUTTERFLY"      "ANIMAL"  ...  d3835bf3dda84ead99deadbeac5d0d7d  0  0
+3      0  "LILY'S GARDEN"    "LOCATION"  ...  077d2820ae1845bcbb1803379a3d1eae  0  0
+4      0      "VILLAGERS"                ...  3671ea0dd4e84c1a9b02c5ab2c8f4bac  0  0
+
+[5 rows x 14 columns]
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+🚀 create_final_communities
+  id  ...                                      text_unit_ids
+0  0  ...  [79b4c7ae551f51889e7984aed1880da2,a17beba7e0cb...
+1  1  ...                 [79b4c7ae551f51889e7984aed1880da2]
+
+[2 rows x 6 columns]
+🚀 join_text_units_to_entity_ids
+                      text_unit_ids  ...                                id
+0  79b4c7ae551f51889e7984aed1880da2  ...  79b4c7ae551f51889e7984aed1880da2
+1  a17beba7e0cba9aef60d7abb5384c680  ...  a17beba7e0cba9aef60d7abb5384c680
+
+[2 rows x 3 columns]
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\numpy\core\fromnumeric.py:59:
+FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use
+'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\datashaper\engine\verbs\convert.py:65:
+FutureWarning: errors='ignore' is deprecated and will raise in a future version. Use to_numeric without
+passing `errors` and catch exceptions explicitly instead
+  column_numeric = cast(pd.Series, pd.to_numeric(column, errors="ignore"))
+🚀 create_final_relationships
+            source           target  weight                                        description  ... human_readable_id source_degree target_degree  rank
+0           "LILY"     "THE FLOWER"     1.0  "Lily takes care of the flower, showing a bond...  ...                 0             3             1     4
+1           "LILY"      "BUTTERFLY"     2.0   Lily, a person known as, develops a bond with...  ...                 1             3             1     4
+2           "LILY"  "LILY'S GARDEN"     1.0  "Lily takes care of Lily's Garden and brings j...  ...                 2             3             2     5
+3  "LILY'S GARDEN"      "VILLAGERS"     1.0  "The villagers visit Lily's garden, marveling ...  ...                 3             2             1     3
+
+[4 rows x 10 columns]
+🚀 join_text_units_to_relationship_ids
+                                 id                                   relationship_ids
+0  a17beba7e0cba9aef60d7abb5384c680  [19a7f254a5d64566ab5cc15472df02de, e7ffaee9d31...
+1  79b4c7ae551f51889e7984aed1880da2  [e7ffaee9d31d4d3c96e04f911d0a8f9e, f7e11b0e297...
+⠼ GraphRAG Indexer
+⠦ GraphRAG Indexer
+├── Loading Input (InputFileType.text) - 1 files loaded (0 filtered) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⠏ GraphRAG Indexer
+⠋ GraphRAG Indexer
+🚀 create_final_community_reports
+  community                                       full_content  ...                                  full_content_json                                    id
+0         1  # Lily's Garden and Villagers\n\nThe community...  ...  {\n    "title": "Lily's Garden and Villagers",...  a728968b-7953-47c5-b9f2-ebb0523d3a84
+
+[1 rows x 10 columns]
+🚀 create_final_text_units
+                                 id  ...                                   relationship_ids
+0  a17beba7e0cba9aef60d7abb5384c680  ...  [19a7f254a5d64566ab5cc15472df02de, e7ffaee9d31...
+1  79b4c7ae551f51889e7984aed1880da2  ...  [e7ffaee9d31d4d3c96e04f911d0a8f9e, f7e11b0e297...
+
+[2 rows x 6 columns]
+C:\tmp\graphRAG_env\why_graphRAG_such_game_changer\Lib\site-packages\datashaper\engine\verbs\convert.py:72: FutureWarning: errors='ignore' is deprecated and will raise in a future version.
+Use to_datetime without passing `errors` and catch exceptions explicitly instead
+  datetime_column = pd.to_datetime(column, errors="ignore")
+🚀 create_base_documents
+                                 id                                         text_units                                        raw_content     title
+0  dd5cf79d282ddd51ee232c2ff4c883cd  [a17beba7e0cba9aef60d7abb5384c680, 79b4c7ae551...  Once upon a time, in a small village, there li...  book.txt
+🚀 create_final_documents
+                                 id                                      text_unit_ids                                        raw_content     title
+0  dd5cf79d282ddd51ee232c2ff4c883cd  [a17beba7e0cba9aef60d7abb5384c680, 79b4c7ae551...  Once upon a time, in a small village, there li...  book.txt
+⠇ GraphRAG Indexer
+├── Loading Input (InputFileType.text) - 1 files loaded (0 filtered) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00
+├── create_base_text_units
+├── create_base_extracted_entities
+├── create_summarized_entities
+├── create_base_entity_graph
+├── create_final_entities
+├── create_final_nodes
+├── create_final_communities
+├── join_text_units_to_entity_ids
+├── create_final_relationships
+├── join_text_units_to_relationship_ids
+├── create_final_community_reports
+├── create_final_text_units
+├── create_base_documents
+└── create_final_documents
+🚀 All workflows completed successfully.
