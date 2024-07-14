@@ -126,25 +126,23 @@ To pull the Gemma 2B model using Ollama:
 
 4.  ** initialze graphRAG **
 
-```bash
-python -m graphrag.index --init --root ragtest
-```
-5. ** Down load data **
+    ```bash
+    python -m graphrag.index --init --root ragtest
+    ```
+5. ** Download data **
         1. Download from below link
         https://github.com/nihitx/game-of-thrones-/blob/master/gameofthrones.txt 
         2. save under "input" folder
 
 5. ** Index **
 
-```bash
-python -m graphrag.index --root .\ragtest
-```
-5. **Run the Market Analysis AI Application**
-
-   Finally, execute the following command to start the Market Analysis AI application:
+    ```bash
+    python -m graphrag.index --root .\ragtest
+    ```
+5. **Run Query**
 
    ```bash   
-   # Run UI
-   streamlit run main.py
+   python -m graphrag.query --root .\ragtest --method global "How was impact of Lily action on villagers"
+   
    ```  
 
