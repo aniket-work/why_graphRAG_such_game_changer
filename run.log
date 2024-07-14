@@ -1,0 +1,17 @@
+(why_graphRAG_such_game_changer) C:\Users\worka\PycharmProjects\why_graphRAG_such_game_changer>python -m graphrag.query --root .\ragtest --method global "How was impact of Lily action on villagers"
+
+
+INFO: Reading settings from ragtest\settings.yaml
+creating llm client with {'api_key': 'REDACTED,len=9', 'type': "openai_chat", 'model': 'mistral', 'max_tokens': 4000, 'request_timeout': 180.0, 'api_base': 'http://localhost:11434/v1', 'api_version': None, 'organization': None, 'proxy': None, 'cognitive_services_endpoint': None, 'deployment_name': None, 'model_supports_json': True, 'tokens_per_minute': 0, 'requests_per_minute': 0, 'max_retries': 10, 'max_retry_wait': 10.0, 'sleep_on_rate_limit_recommendation': True, 'concurrent_requests': 25}
+
+SUCCESS: Global Search Response:  The impact of Lily's actions on the villagers, as analyzed by multiple reports, suggests a positive influence.
+
+1. **Social Impact**: Lily's Garden serves as a gathering place for the villagers, indicating that it positively impacts their social lives and well-being [Data: Reports (1)].
+2. **Emotional Impact**: The beauty of Lily's Garden brings joy to the villagers, implying a positive emotional impact on them [Data: Reports (2)].
+3. **Daily Life Enhancement**: The villagers visit and marvel at Lily's Garden, suggesting that it enhances their daily lives [Data: Reports (3)].
+4. **Inspirational Role**: Lily's role as the caretaker of Lily's Garden may also have a positive influence on the villagers, as her dedication and love for the garden could inspire them [Data: Reports (2)].
+5. **Indirect Impact through Butterfly Friendship**: The relationship between Lily and the butterfly in the garden might indirectly impact the villagers, as they find joy and fascination in observing this friendship [Data: Reports (4)].
+
+In summary, Lily's actions towards her garden seem to have a significant positive impact on the villagers, enhancing their social lives, emotional well-being, and daily experiences. The inspirational role she plays as a caretaker and the indirect influence through her relationship with the butterfly further contribute to this positive impact.
+
+More reports are available for analysis [Data: Reports (+more)].
